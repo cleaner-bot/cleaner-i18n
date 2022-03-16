@@ -25,3 +25,11 @@ log_announcement_failure = "Unable to send a message in <#{channel}>."
 log_channelratelimit_success = (
     "Adjusted slowmode in <#{channel}> to {ratelimit} seconds."
 )
+components_antispam = "Triggered antispam: `{mitigation}`"
+components_antispam_announcement = (
+    ":warning: **Spam detected!**\n"
+    "Sending the same message or sending multiple messages in a short time frame will result in a punishment."
+)
+components_dehoist = "Automatic dehoisting"
+components_discordimpersonation = "Tried impersonating Discord staff."
+components_firewall = "Triggered firewall rule: `{rule}`"
