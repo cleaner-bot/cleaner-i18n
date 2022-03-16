@@ -3,7 +3,7 @@ from .locale import localesd
 FALLBACK = "en-US"
 
 
-def translate(language: str, key: str, **kwargs):
+def translate(language: str, key: str, **kwargs) -> str:
     locale = localesd.get(language, None)
     if locale is None:
         language = FALLBACK
