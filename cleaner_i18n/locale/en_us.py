@@ -28,8 +28,10 @@ log_channelratelimit_success = (
 components_antispam = "Triggered antispam: `{mitigation}`"
 components_antispam_announcement = (
     ":warning: **Spam detected!**\n"
-    "Sending the same message or sending multiple messages in a short time frame will result in a punishment."
+    "Sending the same message or sending multiple messages in a short time "
+    "frame will result in a punishment."
 )
 components_dehoist = "Automatic dehoisting"
 components_discordimpersonation = "Tried impersonating Discord staff."
 components_firewall = "Triggered firewall rule: `{rule}`"
+components_log_join = "<@{user}> joined. (age={age}, risk={risk})"
