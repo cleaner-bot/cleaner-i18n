@@ -10,7 +10,7 @@ log_nickname_reset_failure = (
 log_nickname_kick = (
     "Kicked <@{user}> because I failed to reset their nickname due to ratelimits."
 )
-log_nickname_banned = (
+log_nickname_ban = (
     "Banned <@{user}> because I failed to reset their nickname due to ratelimits."
 )
 log_nickname_failure = "Failed to reset <@{user}>'s nickname due to ratelimits."
