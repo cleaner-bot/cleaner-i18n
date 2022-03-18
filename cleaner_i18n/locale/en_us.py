@@ -53,3 +53,22 @@ components_firewall_advertisement_discord_server = (
 components_firewall_emoji_mass = "Hey <@{user}>, please don't send soo many emojis."
 components_firewall_selfbot_embed = "Hey <@{user}>, please don't selfbot."
 components_log_join = "<@{user}> joined. (age={age}, risk={risk})"
+slash_about_website = "Website"
+slash_about_documentation = "Documentation"
+slash_about_blog = "Blog"
+slash_about_privacy = "Privacy Policy"
+slash_about_terms = "Terms of Service"
+slash_about_impressum = "Impressum"
+slash_about_discord = "Support Server"
+slash_about_content = (
+    "The Cleaner is a Discord bot designed to keep your server clean and safe."
+)
+slash_dashboard_guildonly = ":x: This command can only be used in a server."
+slash_dashboard_dashboard = "Dashboard"
+slash_dashboard_note = (
+    ":warning: You do not have the `ADMINISTRATOR` or `MANAGE SERVER` permission, "
+    "so you can not access this server's dashboard."
+)
+slash_dashboard_content = (
+    "Click the button below to go to the dashboard of this server!"
+)
