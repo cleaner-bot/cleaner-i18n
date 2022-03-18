@@ -1,4 +1,4 @@
-from cleaner_i18n.translate import translate
+from cleaner_i18n.translate import translate, Message
 
 
 def test_translate_locale_fallback():
@@ -17,3 +17,10 @@ def test_translate_non_existent():
 def test_translate_key_fallback():
     assert translate("en-UK", "helloworld") == "Hello World!"
     assert translate("en-UK", "does_not_exist") == "does_not_exist"
+
+
+def test_message():
+    message = Message("helloworld")
+    assert message.translate("en-US") == "Hello World!"
+    message = Message("helloworld", {})
+    assert message.translate("en-US") == "Hello World!"

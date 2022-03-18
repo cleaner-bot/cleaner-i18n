@@ -28,7 +28,9 @@ def translate(language: str, key: str, **kwargs) -> str:
 
 class Message(typing.NamedTuple):
     translate_key: str
-    variables: dict[str, typing.Any]
+    variables: dict[str, typing.Any] | None = None
 
     def translate(self, locale: str) -> str:
+        if self.variables is None:
+            return translate(locale, self.translate_key)
         return translate(locale, self.translate_key, **self.variables)
