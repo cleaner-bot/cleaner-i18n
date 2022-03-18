@@ -72,3 +72,58 @@ slash_dashboard_note = (
 slash_dashboard_content = (
     "Click the button below to go to the dashboard of this server!"
 )
+slash_internal_error = (
+    "**Internal error**: Something went wrong on our end.\nPlease contact support."
+)
+challenge_internal_error = slash_internal_error
+challenge_discord = "Support"
+challenge_no_settings = (
+    "**Internal error**: We have no information about the server you are in.\n"
+    "This should fix itself after a few minutes, contact support if it does not."
+)
+challenge_disabled = "Interactive challenges have been disabled by the server staff."
+challenge_no_role = (
+    "Server staff has not selected a role for me {action}.\n"
+    "Contact server staff and ask them that they have not yet completed the setup."
+)
+challenge_already_verified = "You are already verified."
+challenge_role_gone = (
+    "I can not find the role I am supposed to {action} you. Maybe it has been "
+    "deleted?\nContact server staff and ask them to select an up-to-date role."
+)
+challenge_role_managed = (
+    "I can not {action} the role <&{role}> because it is managed by an integration.\n"
+    "Contact server staff and ask them to select a role that is not managed."
+)
+challenge_role_everyone = (
+    "I can not {action} the everyone role.\n"
+    "Contact server staff and ask them to select a different role."
+)
+challenge_no_myself = (
+    "**Internal error**: I can not find myself.\n"
+    "This should fix itself after a few minutes, contact support if it does not."
+)
+challenge_hierarchy_link = "Role hierarchy"
+challenge_hierarchy = (
+    "The role I am supposed to {action} is above me in the role hierarchy and "
+    "therefore I can not {action} it.\n"
+    "Contact server staff and ask them to move me above the <&{role}> role in "
+    "the role settings."
+)
+challenge_no_perms = (
+    "I do not have the permission to {action} roles :slight_frown:\n"
+    "Contact server staff and ask them to give me the `ADMINISTRATOR` or "
+    "`MANAGE ROLES` permission."
+)
+challenge_link = "Solve challenge"
+challenge_content = (
+    "Click the button below and follow the instructions on the website to verify.\n"
+    "*You have 5 minutes before the link becomes invalid*"
+)
+challenge_verified = "You have been verified."
+challenge_embed_title = "Verification required"
+challenge_embed_description = (
+    "Please verify that you are not a robot.\nStart by clicking on the button below."
+)
+challenge_embed_verify = "Verify"
+challenge_embed_privacy = "Privacy Policy"
