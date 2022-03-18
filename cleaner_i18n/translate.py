@@ -1,3 +1,5 @@
+import typing
+
 from .locale import localesd
 
 FALLBACK = "en-US"
@@ -22,3 +24,11 @@ def translate(language: str, key: str, **kwargs) -> str:
             return key
 
     return string.format(**kwargs)
+
+
+class Message(typing.NamedTuple):
+    translate_key: str
+    variables: dict[str, typing.Any]
+
+    def translate(self, locale: str) -> str:
+        return translate(locale, self.translate_key, **self.variables)
