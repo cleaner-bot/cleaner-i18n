@@ -43,7 +43,7 @@ components_firewall_ping_users_few = "Hey <@{user}>, please don't ping multiple 
 components_firewall_ping_roles = "Hey <@{user}>, please don't ping multiple roles."
 components_firewall_ping_broad = "Hey <@{user}>, please don't ping @everyone or @here."
 components_firewall_ping_hidden = "Hey <@{user}>, please don't try to ping others while abusing client bugs."
-components_firewall_ping_advertisement_discord_server = "Hey <@{user}>, please don't send invites to Discord servers."
+components_firewall_advertisement_discord_server = "Hey <@{user}>, please don't send invites to Discord servers."
 components_firewall_emoji_mass = "Hey <@{user}>, please don't send soo many emojis."
 components_firewall_selfbot_embed = "Hey <@{user}>, please don't selfbot."
 components_log_join = "<@{user}> joined. (age={age}, risk={risk})"
