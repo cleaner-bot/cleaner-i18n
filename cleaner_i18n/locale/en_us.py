@@ -34,4 +34,16 @@ components_antispam_announcement = (
 components_dehoist = "Automatic dehoisting"
 components_discordimpersonation = "Tried impersonating Discord staff."
 components_firewall = "Triggered firewall rule: `{rule}`"
+components_firewall_phishing_content = "Hey <@{user}>, please don't post content that is likely to be phishing."
+components_firewall_phishing_domain_blacklisted = components_firewall_phishing_content
+components_firewall_phishing_domain_heuristic = components_firewall_phishing_content
+components_firewall_phishing_embed = components_firewall_phishing_content
+components_firewall_ping_users_many = "Hey <@{user}>, please don't ping many users."
+components_firewall_ping_users_few = "Hey <@{user}>, please don't ping multiple users."
+components_firewall_ping_roles = "Hey <@{user}>, please don't ping multiple roles."
+components_firewall_ping_broad = "Hey <@{user}>, please don't ping @everyone or @here."
+components_firewall_ping_hidden = "Hey <@{user}>, please don't try to ping others while abusing client bugs."
+components_firewall_ping_advertisement_discord_server = "Hey <@{user}>, please don't send invites to Discord servers."
+components_firewall_emoji_mass = "Hey <@{user}>, please don't send soo many emojis."
+components_firewall_selfbot_embed = "Hey <@{user}>, please don't selfbot."
 components_log_join = "<@{user}> joined. (age={age}, risk={risk})"
