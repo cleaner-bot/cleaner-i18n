@@ -17,7 +17,7 @@ log_nickname_failure = "Failed to reset <@{user}>'s nickname due to ratelimits."
 log_challenge_failure = (
     "Failed to challenge <@{user}> due to missing permissions or ratelimits."
 )
-log_challenge_timeout = "Put <@{user}> in timeout as challenge."
+log_challenge_timeout = "Put <@{user}> in timeout as punishment."
 log_challenge_role = "<@{user}> has been challenged."
 log_challenge_kick = "<@{user}> has been kicked."
 log_challenge_ban = "<@{user}> has been banned."
