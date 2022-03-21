@@ -72,6 +72,23 @@ slash_dashboard_note = (
 slash_dashboard_content = (
     "Click the button below to go to the dashboard of this server!"
 )
+slash_login_content = (
+    ":warning: **Do NOT give this link to anyone!** :warning:\n"
+    "Sharing this link will give others full access to the settings of The Cleaner!"
+    "\n\n"
+    "**Q:** What is this feature for then?\n"
+    "**A:** So you don't need to perform the OAuth flow on your phone which can be a "
+    "bit funky at times."
+)
+slash_login_proceed = "I understand the risk, proceed."
+slash_login_nosession = (
+    "You do not have any active session, please login in a browser first."
+)
+slash_login_success = (
+    "Use the link below to login.\n"
+    "**Do NOT share this link with anyone**.\n"
+    "Our support team will **NEVER** ask for this link."
+)
 slash_internal_error = (
     "**Internal error**: Something went wrong on our end.\nPlease contact support."
 )
