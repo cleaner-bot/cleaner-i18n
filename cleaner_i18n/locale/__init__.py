@@ -12,6 +12,7 @@ class Locale(typing.NamedTuple):
 
 locales = [
     Locale("bg", "български", "Bulgarian", object()),
+    Locale("es", "Español", "Spanish", object()),
     Locale("cs", "Čeština", "Czech", object()),
     Locale("da", "Dansk", "Danish", object()),
     Locale("de", "Deutsch", "German", object()),
