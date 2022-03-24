@@ -75,11 +75,10 @@ slash_about_content = (
 slash_dashboard_guildonly = ":x: Ta komenda może zostać użyta tylko w serwerze."
 slash_dashboard_dashboard = "Dashboard"
 slash_dashboard_note = (
-    ":warning: Nie posiadasz permisji `ADMINISTRATOR` lub `MANAGE SERVER`, "
+    ":warning: Nie posiadasz permisji `Administrator` lub `Zarządzanie serwerem`, "
     "więc nie możesz otrzymać dostępu do tego serwera."
 )
 slash_dashboard_content = (
-    "Click the button below to go to the dashboard of this server!"
     "Kliknij przycisk poniżej aby dostać się do konfiguracji serwera!"
 )
 slash_login_content = (
@@ -144,8 +143,8 @@ challenge_hierarchy = (
 )
 challenge_no_perms = (
     "Nie mam permisji do zarządzania tą rolą :slight_frown:\n"
-    "Skontaktuj się z administracją serwera aby dali mi uprawnienia `ADMINISTRATOR` lub "
-    "`MANAGE ROLES`."
+    "Skontaktuj się z administracją serwera aby dali mi uprawnienia `Administrator` lub "
+    "`Zarządzanie serwerem`."
 )
 challenge_link = "Rozwiąż zagadkę"
 challenge_content = (
