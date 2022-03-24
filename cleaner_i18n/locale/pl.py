@@ -1,5 +1,7 @@
 helloworld = "Witaj świecie!"
-log_delete_success = "Wiadomośc została usunięta przez <@{user}> na kanale <#{channel}>."
+log_delete_success = (
+    "Wiadomośc została usunięta przez <@{user}> na kanale <#{channel}>."
+)
 log_delete_failure = (
     "Próba usunięcia wiadomości użytkownika <@{user}> na kanale <#{channel}> nie "
     "udała się z powodu braku permisji."
@@ -17,7 +19,9 @@ log_nickname_ban = (
     "Zbanowano użytkownika <@{user}> ponieważ nie udało mi się zresetować jego nicku "
     "z powodu ratelimitu."
 )
-log_nickname_failure = "Próba zresetowania nazwy użytkownika <@{user}> nie udała się z powodu ratelimitu"
+log_nickname_failure = (
+    "Próba zresetowania nazwy użytkownika <@{user}> nie udała się z powodu ratelimitu"
+)
 log_challenge_failure = (
     "Próba sprawdzenia użytkownika <@{user}> nie udała się z powodu braku permisji "
     "lub ratelimitu."
@@ -43,15 +47,22 @@ components_dehoist = "Automatyczny dehoisting"
 components_discordimpersonation = "Próba podszywania się pod administracje Discord."
 components_firewall = "Wywołano zasadę firewall: `{rule}`"
 components_firewall_phishing_content = (
-    "Hej <@{user}>, prosimy o nie wysyłanie wiadomości z linkami do wyłudzania informacji."
+    "Hej <@{user}>, prosimy o nie wysyłanie wiadomości z linkami do "
+    "wyłudzania informacji."
 )
 components_firewall_phishing_domain_blacklisted = components_firewall_phishing_content
 components_firewall_phishing_domain_heuristic = components_firewall_phishing_content
 components_firewall_phishing_embed = components_firewall_phishing_content
-components_firewall_ping_users_many = "Hej <@{user}>, prosimy o nie pingowanie tylu osób."
-components_firewall_ping_users_few = "Hej <@{user}>, prosimy o nie pingowanie kilku osób na raz."
+components_firewall_ping_users_many = (
+    "Hej <@{user}>, prosimy o nie pingowanie tylu osób."
+)
+components_firewall_ping_users_few = (
+    "Hej <@{user}>, prosimy o nie pingowanie kilku osób na raz."
+)
 components_firewall_ping_roles = "Hej <@{user}>, prosimy o nie pingowanie tylu rol."
-components_firewall_ping_broad = "Hej <@{user}>, prosimy o nie pingowanie @everyone oraz @here."
+components_firewall_ping_broad = (
+    "Hej <@{user}>, prosimy o nie pingowanie @everyone oraz @here."
+)
 components_firewall_ping_hidden = (
     "Hej <@{user}>, prosimy o nie pingowanie osób przy użyciu błędów klienta Discord."
 )
@@ -86,8 +97,8 @@ slash_login_content = (
     "Udostępnianie tego linku skutkuje dostępem do wszystkich ustawień The Cleaner'a!"
     "\n\n"
     "**Q:** Do czego jest ta funkcja w takim razie?\n"
-    "**A:** Żebyś nie musiał cały czas się logować przy użyciu loginu i hasła na telefonie "
-    "co może sprawiać niektórym problem."
+    "**A:** Żebyś nie musiał cały czas się logować przy użyciu loginu i hasła na "
+    "telefonie co może sprawiać niektórym problem."
 )
 slash_login_proceed = "Rozumiem niebezpieczeńswto, kontynuuj."
 slash_login_nosession = (
@@ -99,19 +110,22 @@ slash_login_success = (
     "Nasza pomoc techniczna **NIGDY** nie zapyta o ten link."
 )
 slash_internal_error = (
-    "**Błąd wewnętrzny**: Coś poszło nie tak na naszym końcu.\nProszę skontaktuj się z pomocą."
+    "**Błąd wewnętrzny**: Coś poszło nie tak na naszym końcu.\n"
+    "Proszę skontaktuj się z pomocą."
 )
 challenge_internal_error = slash_internal_error
 challenge_discord = "Wspomóż"
 challenge_action_give = "daj"
 challenge_action_take = "zabierz"
 challenge_no_settings = (
-    "**Błąd wewnętrzny**: Nie mamy żadnych informacji na temat serwera w którym aktualnie "
-    "jesteś.\n"
-    "To powinno się naprawić w przeciągu kilku minut, skontaktuj się z pomocą jeśli po tym czasie "
-    "nie działa."
+    "**Błąd wewnętrzny**: Nie mamy żadnych informacji na temat serwera w "
+    "którym aktualnie jesteś.\n"
+    "To powinno się naprawić w przeciągu kilku minut, skontaktuj się z pomocą "
+    "jeśli po tym czasie nie działa."
 )
-challenge_disabled = "Interaktywne wyzwania zostały wyłączone przez administracje serwera."
+challenge_disabled = (
+    "Interaktywne wyzwania zostały wyłączone przez administracje serwera."
+)
 challenge_no_role = (
     "Administracja serwera nie wybrała roli którą mam zarządzać.\n"
     "Skontaktuj się z administracją serwera w celu dokończenia konfiguracji."
@@ -123,7 +137,8 @@ challenge_role_gone = (
 )
 challenge_role_managed = (
     "Nie mogę zarządzać rolą <&{role}> ponieważ jest ona zarządzana integracją.\n"
-    "Skontaktuj się z administracją serwera aby zmienili na rolę która nie jest zarządzana."
+    "Skontaktuj się z administracją serwera aby zmienili na rolę która nie jest "
+    "zarządzana."
 )
 challenge_role_everyone = (
     "Nie mogę zarządzać rolą everyone.\n"
@@ -131,8 +146,8 @@ challenge_role_everyone = (
 )
 challenge_no_myself = (
     "**Błąd wewnętrzny**: Nie mogę siebie znaleźć.\n"
-    "To powinno się naprawić w przeciągu kilku minut, skontaktuj się z pomocą jeśli po tym czasie "
-    "nie działa."
+    "To powinno się naprawić w przeciągu kilku minut, skontaktuj się z pomocą jeśli "
+    "po tym czasie nie działa."
 )
 challenge_hierarchy_link = "Hierarchia roli"
 challenge_hierarchy = (
@@ -143,8 +158,8 @@ challenge_hierarchy = (
 )
 challenge_no_perms = (
     "Nie mam permisji do zarządzania tą rolą :slight_frown:\n"
-    "Skontaktuj się z administracją serwera aby dali mi uprawnienia `Administrator` lub "
-    "`Zarządzanie serwerem`."
+    "Skontaktuj się z administracją serwera aby dali mi uprawnienia `Administrator` "
+    "lub `Zarządzanie serwerem`."
 )
 challenge_link = "Rozwiąż zagadkę"
 challenge_content = (

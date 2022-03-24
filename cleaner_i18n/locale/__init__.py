@@ -1,6 +1,6 @@
 import typing
 
-from . import de, en_gb, en_us
+from . import de, en_gb, en_us, pl
 
 
 class Locale(typing.NamedTuple):
@@ -23,7 +23,7 @@ locales = [
     Locale("hu", "Hungarian", "Magyar", object()),
     Locale("nl", "Dutch", "Nederlands", object()),
     Locale("no", "Norwegian", "Norsk", object()),
-    Locale("pl", "Polish", "Polski", object()),
+    Locale("pl", "Polish", "Polski", pl),
     Locale("pt-BR", "Portuguese, Brazilian", "Português do Brasil", object()),
     Locale("ro", "Romanian, Romania", "Română", object()),
     Locale("fi", "Finnish", "Suomi", object()),
