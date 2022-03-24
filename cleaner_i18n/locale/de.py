@@ -1,21 +1,28 @@
 helloworld = "Hallo Welt!"
 log_delete_success = "Nachricht von <@{user}> in <#{channel}> gelöscht."
 log_delete_failure = (
-    "Konnte eine Nachricht von <@{user}> in <#{channel}> nicht löschen, weil mir Rechte fehlen."
+    "Konnte eine Nachricht von <@{user}> in <#{channel}> nicht löschen, "
+    "weil mir Berechtigungen fehlen."
 )
 log_nickname_reset_success = "Nickname von <@{user}> zurückgesetzt."
 log_nickname_reset_failure = (
-    "Konnte den Nickanmen von <@{user}> nicht zurücksetzen, weil wir Rechte fehlen."
+    "Konnte den Nickanmen von <@{user}> nicht zurücksetzen, weil mir "
+    "Berechtigungen fehlen."
 )
 log_nickname_kick = (
-    "Habe <@{user}> gekickt, weil ich seinen Namen wegen Ratenlimits nicht zurücksetzen konnte."
+    "Habe <@{user}> gekickt, weil ich seinen Namen wegen Ratenlimits nicht "
+    "zurücksetzen konnte."
 )
 log_nickname_ban = (
-    "Habe <@{user}> verbannt, weil ich seinen Namen wegen Ratenlimits nicht zurücksetzen konnte."
+    "Habe <@{user}> verbannt, weil ich seinen Namen wegen Ratenlimits nicht "
+    "zurücksetzen konnte."
 )
-log_nickname_failure = "Konnte den Nicknamen von <@{user}> wegen Ratenlimits nicht zurücksetzen.."
+log_nickname_failure = (
+    "Konnte den Nicknamen von <@{user}> wegen Ratenlimits nicht zurücksetzen."
+)
 log_challenge_failure = (
-    "Konnte <@{user}> nicht Herausfordern wegen fehlenden Rechten oder Ratenlimits."
+    "Konnte <@{user}> nicht Herausfordern wegen fehlenden Berechtigungen "
+    "oder Ratenlimits."
 )
 log_challenge_timeout = "Habe <@{user}> zur Bestrafung in Auszeit gesetzt."
 log_challenge_role = "Habe <@{user}> herausgefordert."
@@ -43,10 +50,16 @@ components_firewall_phishing_content = (
 components_firewall_phishing_domain_blacklisted = components_firewall_phishing_content
 components_firewall_phishing_domain_heuristic = components_firewall_phishing_content
 components_firewall_phishing_embed = components_firewall_phishing_content
-components_firewall_ping_users_many = "Hey <@{user}>, bitte erwähne nicht so viele Nutzer."
-components_firewall_ping_users_few = "Hey <@{user}>, bitte erwähne nicht so mehrere Nutzer."
+components_firewall_ping_users_many = (
+    "Hey <@{user}>, bitte erwähne nicht so viele Nutzer."
+)
+components_firewall_ping_users_few = (
+    "Hey <@{user}>, bitte erwähne nicht so mehrere Nutzer."
+)
 components_firewall_ping_roles = "Hey <@{user}>, bitte erwähne nicht so viele Rollen."
-components_firewall_ping_broad = "Hey <@{user}>, bitte erwähne nicht @everyone oder @here."
+components_firewall_ping_broad = (
+    "Hey <@{user}>, bitte erwähne nicht @everyone oder @here."
+)
 components_firewall_ping_hidden = (
     "Hey <@{user}>, bitte erwähne nicht andere Nutzer und nutze Clientfehler aus."
 )
@@ -69,7 +82,7 @@ slash_about_content = (
 slash_dashboard_guildonly = ":x: Du kannst diesen Befehl nur in einen Server nutzen."
 slash_dashboard_dashboard = "Dashboard"
 slash_dashboard_note = (
-    ":warning: Dir fehlt das `ADMINISTRATOR` oder `MANAGE SERVER` Recht "
+    ":warning: Dir fehlt die `ADMINISTRATOR` oder `SERVER VERWALTEN` Berechtigung "
     "um auf das Dashboard zuzugreifen."
 )
 slash_dashboard_content = (
@@ -92,54 +105,62 @@ slash_login_success = (
     "Unser Support team fragt **NIEMALS** nach diesem Link."
 )
 slash_internal_error = (
-    "**Interner Fehler**: Irgendwas ging schief bei uns.\nBitte kontaktiere unseren Support."
+    "**Interner Fehler**: Irgendwas ging schief bei uns.\n"
+    "Bitte kontaktiere unseren Support."
 )
 challenge_internal_error = slash_internal_error
 challenge_discord = "Support"
 challenge_action_give = "gebe"
 challenge_action_take = "nehme"
 challenge_no_settings = (
-    "**Interner Fehler**: Wir haben keinen Informationen über den Serven in dem du bist.\n"
-    "Dies sollte sich nach ein paar Minuten von selbst beheben, falls nicht kontaktiere Support."
+    "**Interner Fehler**: Wir haben keinen Informationen über den Serven in dem "
+    "du bist.\nDies sollte sich nach ein paar Minuten von selbst beheben, "
+    "falls nicht kontaktiere Support."
 )
-challenge_disabled = "Interaktive Herausforderungen wurden vom Server Team deaktiviert."
+challenge_disabled = (
+    "Interaktive Herausforderungen wurden vom Server Team deaktiviert."
+)
 challenge_no_role = (
     "Das Server Team hat keine Rolle ausgewählt die ich {action}n soll.\n"
     "Kontaktiere das Server Team und weise sie darauf hin."
 )
 challenge_already_verified = "You are already verified."
 challenge_role_gone = (
-    "Ich kann die Role die ich {action}n soll nicht finden. Vielleicht wurde sie gelöscht?\n"
+    "Ich kann die Role die ich {action}n soll nicht finden. "
+    "Vielleicht wurde sie gelöscht?\n"
     "Kontaktiere das Server Team und weise sie darauf hin eine neue Rolle auszuwählen."
 )
 challenge_role_managed = (
-    "Ich kann die Rolle <@&{role}> nicht {action}n, weil sie von einer Integration kontrolliert wird.\n"
-    "Kontaktiere das Server Team und weise sie darauf hin eine andere Rolle auszuwählen."
+    "Ich kann die Rolle <@&{role}> nicht {action}n, weil sie von einer "
+    "Integration kontrolliert wird.\nKontaktiere das Server Team und weise sie darauf "
+    "hin eine andere Rolle auszuwählen."
 )
 challenge_role_everyone = (
     "Ich kann die everyone Rolle nicht {action}n.\n"
-    "Kontaktiere das Server Team und weise sie darauf hin eine andere Rolle auszuwählen."
+    "Kontaktiere das Server Team und weise sie darauf hin eine andere Rolle "
+    "auszuwählen."
 )
 challenge_no_myself = (
     "**Interner Fehler**: Ich finde mich selbst nicht.\n"
-    "Dies sollte sich nach ein paar Minuten von selbst beheben, falls nicht kontaktiere Support."
+    "Dies sollte sich nach ein paar Minuten von selbst beheben, "
+    "falls nicht kontaktiere Support."
 )
 challenge_hierarchy_link = "Role hierarchy"
 challenge_hierarchy = (
-    "Die Rolle, die ich {action}n soll, ist über mir in der Rollen Hierarchie, und kann sie "
-    "deswegen nicht {action}n."
-    "Kontaktiere das Server Team und weise sie darauf hin mich über die <@&{role}> Rolle "
-    "zu platzieren."
+    "Die Rolle, die ich {action}n soll, ist über mir in der Rollen Hierarchie, "
+    "und kann sie deswegen nicht {action}n."
+    "Kontaktiere das Server Team und weise sie darauf hin mich über die "
+    "<@&{role}> Rolle zu platzieren."
 )
 challenge_no_perms = (
     "Ich habe nicht das Recht um Rollen zu {action}n:slight_frown:\n"
-    "Kontaktiere das Server Team und weise sie darauf hin mir das `ADMINISTRATOR` oder ."
-    "`MANAGE ROLES` Recht zu geben."
+    "Kontaktiere das Server Team und weise sie darauf hin mir das `ADMINISTRATOR` "
+    "oder `ROLLEN VERWALTEN` Berechtigung zu geben."
 )
 challenge_link = "Herausforderunng lösen"
 challenge_content = (
-    "Klicke den Knopf und folge den Anweisungen auf der Webseite um dich zu Verifizieren.\n"
-    "*Der Link wird nach 5 Minuten ungültig*"
+    "Klicke den Knopf und folge den Anweisungen auf der Webseite um dich zu "
+    "Verifizieren.\n*Der Link wird nach 5 Minuten ungültig*"
 )
 challenge_verified = "Du wurdest verifiziert."
 challenge_embed_title = "Verifizierung benötigt."
