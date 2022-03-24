@@ -94,6 +94,8 @@ slash_internal_error = (
 )
 challenge_internal_error = slash_internal_error
 challenge_discord = "Support"
+challenge_action_give = "give"
+challenge_action_take = "take"
 challenge_no_settings = (
     "**Internal error**: We have no information about the server you are in.\n"
     "This should fix itself after a few minutes, contact support if it does not."
