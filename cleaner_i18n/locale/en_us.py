@@ -25,6 +25,9 @@ log_announcement_failure = "Unable to send a message in <#{channel}>."
 log_channelratelimit_success = (
     "Adjusted slowmode in <#{channel}> to {ratelimit} seconds."
 )
+log_embed_deleted = "Deleted message"
+log_embed_channel = "Channel"
+log_embed_sticker = "Sticker"
 components_antispam = "Triggered antispam: `{mitigation}`"
 components_antispam_announcement = (
     ":warning: **Spam detected!**\n"
@@ -103,7 +106,7 @@ challenge_no_settings = (
 challenge_disabled = "Interactive challenges have been disabled by the server staff."
 challenge_no_role = (
     "Server staff has not selected a role for me {action}.\n"
-    "Contact server staff and ask them that they have not yet completed the setup."
+    "Contact server staff and ask to complete the setup."
 )
 challenge_already_verified = "You are already verified."
 challenge_role_gone = (
