@@ -117,9 +117,7 @@ challenge_no_settings = (
     "du bist.\nDies sollte sich nach ein paar Minuten von selbst beheben, "
     "falls nicht kontaktiere Support."
 )
-challenge_disabled = (
-    "Interaktive Herausforderungen wurden vom Server Team deaktiviert."
-)
+challenge_disabled = "Interaktive Herausforderungen wurden vom Server Team deaktiviert."
 challenge_no_role = (
     "Das Server Team hat keine Rolle ausgewählt die ich {action}n soll.\n"
     "Kontaktiere das Server Team und weise sie darauf hin."
