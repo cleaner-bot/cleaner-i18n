@@ -44,7 +44,7 @@ components_antispam_announcement = (
     "przedziale czasowym spowoduje nałożeniem kary."
 )
 components_dehoist = "Automatyczny dehoisting"
-components_discordimpersonation = "Próba podszywania się pod administracje Discord."
+components_impersonation_discord = "Próba podszywania się pod administracje Discord."
 components_firewall = "Wywołano zasadę firewall: `{rule}`"
 components_firewall_phishing_content = (
     "Hej <@{user}>, prosimy o nie wysyłanie wiadomości z linkami do "

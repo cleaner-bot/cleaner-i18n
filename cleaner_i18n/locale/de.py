@@ -42,7 +42,7 @@ components_antispam_announcement = (
     "Zeitraum wird bestraft."
 )
 components_dehoist = "Automatisches enthoisten."
-components_discordimpersonation = "Versuchte Discord Angestellte zu imitieren."
+components_impersonation_discord = "Versuchte Discord Angestellte zu imitieren."
 components_firewall = "Firewall Regel ausgelöst: `{rule}`"
 components_firewall_phishing_content = (
     "Hey <@{user}>, bitte sende keine Nachrichten die wahrscheinlich Phishing sind."
