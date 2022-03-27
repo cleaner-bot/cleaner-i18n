@@ -28,6 +28,7 @@ log_channelratelimit_success = (
 log_embed_deleted = "Deleted message"
 log_embed_channel = "Channel"
 log_embed_sticker = "Sticker"
+components_antiraid_limit = "Anti-raid limit exceeded ({limit})"
 components_antispam = "Triggered antispam: `{mitigation}`"
 components_antispam_announcement = (
     ":warning: **Spam detected!**\n"
