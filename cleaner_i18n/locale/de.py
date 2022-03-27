@@ -63,8 +63,8 @@ components_firewall_ping_broad = (
 components_firewall_ping_hidden = (
     "Hey <@{user}>, bitte erwähne nicht andere Nutzer und nutze Clientfehler aus."
 )
-components_firewall_advertisement_discord_server = (
-    "Hey <@{user}>, bitte sende keine Einladungen zu Discord servern."
+components_firewall_advertisement_discord_invite = (
+    "Hey <@{user}>, bitte sende keine Discord Einladungen."
 )
 components_firewall_emoji_mass = "Hey <@{user}>, bitte sende nicht so viele Emojis."
 components_firewall_selfbot_embed = "Hey <@{user}>, bitte selfbotte nicht."
