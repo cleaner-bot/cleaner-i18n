@@ -36,7 +36,7 @@ components_antispam_announcement = (
 )
 components_dehoist = "Automatic dehoisting"
 components_impersonation_discord = "Tried impersonating Discord staff."
-components_impersonation_blacklist = "Name violated impersonation blacklist."
+components_impersonation_blacklist = "Name found in impersonation blacklist."
 components_firewall = "Triggered firewall rule: `{rule}`"
 components_firewall_phishing_content = (
     "Hey <@{user}>, please don't post content that is likely to be phishing."
