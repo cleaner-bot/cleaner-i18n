@@ -52,7 +52,7 @@ components_firewall_ping_broad = "Hey <@{user}>, please don't ping @everyone or 
 components_firewall_ping_hidden = (
     "Hey <@{user}>, please don't try to ping others while abusing client bugs."
 )
-components_firewall_advertisement_discord_invites = (
+components_firewall_advertisement_discord_invite = (
     "Hey <@{user}>, please don't send any Discord invites.."
 )
 components_firewall_emoji_mass = "Hey <@{user}>, please don't send soo many emojis."
