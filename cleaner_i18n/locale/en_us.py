@@ -123,6 +123,10 @@ challenge_role_everyone = (
     "I can not {action} the everyone role.\n"
     "Contact server staff and ask them to select a different role."
 )
+challenge_role_dangerous_link = "Dangerous permissions"
+challenge_role_dangerous = (
+    "The role <&{role}> has a permission that is considered to be dangerous."
+)
 challenge_no_myself = (
     "**Internal error**: I can not find myself.\n"
     "This should fix itself after a few minutes, contact support if it does not."
