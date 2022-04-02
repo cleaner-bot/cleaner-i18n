@@ -155,3 +155,4 @@ challenge_embed_description = (
 )
 challenge_embed_verify = "Verify"
 challenge_embed_privacy = "Privacy Policy"
+verification_kick_reason = "Failed to verify in time."
