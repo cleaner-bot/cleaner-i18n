@@ -1,0 +1,10 @@
+[tool.black]
+extend-exclude = 'cleaner_i18n/locale'
+
+[tool.mypy]
+exclude = 'build'
+
+[tool.flake8]
+max-line-length = 88
+exclude = '.git,__pycache__,build,dist'
+extend-ignore = 'E203'
