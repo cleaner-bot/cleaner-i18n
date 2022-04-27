@@ -36,7 +36,6 @@ components_firewall_ping_hidden = "Hej <@{user}>, prosimy o nie pingowanie osób
 components_firewall_advertisement_discord_invite = "Hej <@{user}>, prosimy o nie wysyłanie zaproszeń Discord."
 components_firewall_emoji_mass = "Hej <@{user}>, prosimy o nie wysyłanie tylu emotek."
 components_firewall_selfbot_embed = "Hej <@{user}>, prosimy o nie używanie selfbotów."
-components_log_join = "<@{user}> dołączył. (Wiek={age}, Ryzyko={risk})"
 slash_about_website = "Strona Internetowa"
 slash_about_documentation = "Dokumentacja"
 slash_about_blog = "Blog"
