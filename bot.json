@@ -133,7 +133,7 @@
     "report_message_action_timeout_day_notfound": "User not found. Maybe they left?",
     "report_message_action_timeout_day_failed": "Failed to timeout <@{user}> due to missing permissions.",
     "report_message_action_timeout_week": "Timeout for one week",
-    "report_message_action_timeout_week_success": "Timed <@{user}> out for a day.",
+    "report_message_action_timeout_week_success": "Timed <@{user}> out for a week.",
     "report_message_action_timeout_week_notfound": "User not found. Maybe they left?",
     "report_message_action_timeout_week_failed": "Failed to timeout <@{user}> due to missing permissions."
 }
