@@ -2,7 +2,7 @@ from setuptools import find_namespace_packages, setup  # type: ignore
 
 setup(
     name="cleaner_i18n",
-    version="0.1.10",
+    version="0.1.11",
     url="https://github.com/cleaner-bot/cleaner-i18n",
     author="Leo Developer",
     author_email="git@leodev.xyz",
