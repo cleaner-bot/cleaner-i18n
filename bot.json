@@ -49,7 +49,7 @@
     "components_log_verify_challenge": "<@{user}> ({name}) verified. (challenged)",
     "components_log_verify_verification": "<@{user}> ({name}) verified. (super verification)",
     "components_worker_disable": "Worker has been temporarily disabled due to an initialization error. Contact support for details. Disable and re-enable to force a restart.",
-    "components_worker_reason": "Triggered worker.",
+    "components_worker_reason": "Worker triggered: {reason}",
     "components_worker_error": "Error during worker execution: {error}",
     "components_worker_unknownaction": "Worker returned unknown action: {action}",
     "components_worker_log": "Worker log: {message}",
