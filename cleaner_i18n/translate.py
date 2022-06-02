@@ -3,6 +3,7 @@ import typing
 from .locale import localesd
 
 FALLBACK = "en-US"
+__all__ = ["translate", "Message", "FALLBACK", "localesd"]
 
 
 def translate(language: str, key: str, **kwargs) -> str:
