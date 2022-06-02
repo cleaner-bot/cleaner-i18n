@@ -1,4 +1,4 @@
-from cleaner_i18n.translate import Message, translate
+from cleaner_i18n import Message, translate
 
 
 def test_translate_locale_fallback():
